@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function App() {
     const handlelogin=()=>{
-        window.location.href="https://github.com/login/oauth/authorize?client_id=Ov23liHuhE6yapxRByHx";
+      window.location.href = "http://localhost:5000/auth/github";
     }
   return (
     <main className="min-h-screen font-sans bg-gradient-to-b from-[#0f021c] via-[#12042a] to-[#080011] relative overflow-hidden text-white">
